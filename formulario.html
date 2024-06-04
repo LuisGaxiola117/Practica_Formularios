@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<div> 
+    <form action="procesar.php" method="post">  
+<div class="formulario_mini " >
+    <form>
+        <label for="fnombre" class="label_grande">Nombre</label>
+        <br>
+        <input type="text" name="fnombre" id="fnombre">
+        <br>
+        <label for="fMail" class="label_grande">Email</label>
+        <br>
+        <input type="text" name="fMail" id="fMail">
+    </form>
+</div>
+<div class="formulario_mini">
+    <p style="font-size: larger;">Razon</p>
+<form>
+<input type="radio" name="Razon" id="Queja" value="Queja">
+<label for="Queja">Queja</label>
+<input type="radio" name="Razon" id="Agendar_Cita" value="Agendar_Cita">
+<label for="Agendar_Cita">Agendar Cita</label>
+<input type="radio" name="Razon" id="aclaracion" value="aclaracion">
+<label for="aclaracion">Aclaracion</label> 
+</form>
+</div>
+<div class="formulario_texto">
+    <form>
+        <label for="Texto" class="label_grande">Detalles</label>
+        <br>
+        <input type="text" name="fdeatalles" id="fdeatalles" class="input_grande">
+    </form>
+</div>
+<div class="formulario_mini">
+    <label for="Conocer">Como nos conoceiste</label>
+    <br>
+    <select name="Sconocer" id="Conocer">
+        <option value="opcion1">Aun no</option>
+        <option value="opcion2">Internet</option>
+        <option value="opcion3">Recomendacion</option>
+    </select>
+</div>
+<input type="submit" value="submit" class="mi-boton" >
+<output></output>
+</form>
+</div>
+</body>
+</html>
