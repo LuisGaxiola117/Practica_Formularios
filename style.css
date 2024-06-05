@@ -6,18 +6,18 @@
 
 body {
     background-color: rgb(71, 67, 67); 
-    height: auto;
-    width: auto;
-    align-items: center;
+   display: flex;
+    justify-content: center;
 }
 
 .formulario_texto {
     background-color: white; 
     border: 3px solid black;
-    width: 80%;
+    width: 80vh;
     height: auto;
     padding: 10px;
     margin-bottom: 20px;
+  
 }
 .mi-boton {
     background-color: #a74caf;
@@ -40,6 +40,9 @@ body {
   .input_grande{
     width: 100%;
     height: 100px;
+    margin: 0   ;
+    display: flex;
+    justify-content: center;
   }
 
   .formulario_mini {
@@ -48,4 +51,11 @@ body {
     width: 200px;
     padding: 10px;
     margin-bottom: 20px;
+}
+.label_centrado{
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    font-size: larger;
+    margin-left: 10px;
 }
